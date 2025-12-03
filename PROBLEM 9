@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    char str[] = "CIVVIX";
+
+    // Make the string a palindrome by replacing last character with first character
+    str[5] = str[0];
+
+    printf("%s", str);
+
+    return 0;
+}
