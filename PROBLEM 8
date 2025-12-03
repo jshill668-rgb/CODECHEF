@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    float weight = 72;
+    float height = 1.82;
+    float bmi;
+
+    bmi = weight / (height * height);
+
+    printf("%f", bmi);
+
+    return 0;
+}
