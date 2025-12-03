@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);
+
+    int a = n % 10;        // last digit
+    int b = (n / 10) % 10; // middle digit
+    int c = n / 100;       // first digit
+
+    printf("Digits in reverse order: %d %d %d", a, b, c);
+
+    return 0;
+}
