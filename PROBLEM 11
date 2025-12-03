@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    char str[] = "RoadChef";
+
+    // Modify characters to make "CodeChef"
+    str[0] = 'C';
+    str[1] = 'o';
+    str[2] = 'd';
+    str[3] = 'e';
+
+    printf("%s", str);
+
+    return 0;
+}
